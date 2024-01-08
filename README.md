@@ -12,11 +12,13 @@ This is a Telegram bot written in Golang that serves as a personal assistant. It
 
 ## Getting Started
 
+Firstly, need to provide an `OPENAI_TOKEN` and `TELEGRAM_TOKEN` as an  enviroment variables
+
 ### Prerequisites
 
 - Go installed on your system.
-- Telegram bot token obtained from the BotFather on Telegram.
-- OpenAI API key.
+- Telegram bot token obtained from the BotFather on Telegram. Put it to `TELEGRAM_TOKEN` env variable.
+- OpenAI API key. Put it to `OPENAI_TOKEN` env variable.
 
 ### Installation
 
